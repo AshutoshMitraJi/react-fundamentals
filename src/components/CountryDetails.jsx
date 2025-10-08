@@ -64,7 +64,7 @@ export default function CountryDetails() {
 
     return countryData === null ? <h2>loading....</h2> :
     (<>
-        <h1 style={{ textAlign: 'center' }}>{`${windowSize.width} X ${windowSize.height}`}</h1>
+        {/* <h1 style={{ textAlign: 'center' }}>{`${windowSize.width} X ${windowSize.height}`}</h1> */}
         <main className={`${isDark ? "dark" : ""}`}>
             <div className="country-details-container">
                 <span className="back-button" onClick={() => history.back()} >
